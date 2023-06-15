@@ -1,0 +1,13 @@
+.topPanel {
+    /* background-color: #dd3b3b; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--blue-color_4);
+    height: 8%;
+    padding: 10px 30px;
+}
+
+.btn_nav {
+    margin: 5px;
+}

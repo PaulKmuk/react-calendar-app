@@ -1,0 +1,78 @@
+.calendar {
+    background-color: var(--blue-color_1);
+    height: 100%;
+    overflow: auto;
+}
+
+.calendar .month {
+    background-color: var(--blue-color_5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.calendar .month h2 {
+    width: 250px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+/* Week  */
+.calendar .week ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.calendar .week ul li{
+    width: 12.5%;
+    margin: 5px;
+}
+
+
+/* Days  */
+.calendar .days ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.calendar .days ul li{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 12.5%;
+    height: 100px;
+    border: 1px solid var(--blue-color_6);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.calendar .days ul li p.nrDay{
+    padding: 5px;
+    background-color: var(--blue-color_3);
+    width: 100%;
+    /* text-align: center; */
+}
+
+.calendar .days ul li.prevLi {
+    background-color: var(--blue-color_3);
+}
+
+.event{
+    width: 80%;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+}
+
+
+
+

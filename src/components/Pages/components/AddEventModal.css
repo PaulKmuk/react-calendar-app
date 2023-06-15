@@ -1,0 +1,57 @@
+.addEventModal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addEventModalPanel {
+    width: 500px;
+    background-color: var(--blue-color_3);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.addEventModalPanel label {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.addEventModalPanel select,
+.addEventModalPanel input, 
+.addEventModalPanel textarea {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.addEventModalPanel textarea {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 250px;
+    height: 250px;
+}
+
+.addEventModalPanelButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.addEventModalPanelButton button {
+    padding: 15px 30px;
+    font-size: 16px;
+}

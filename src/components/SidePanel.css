@@ -1,0 +1,14 @@
+.sidePanel {
+    position: absolute;
+    width: 300px;
+    left: -300px;
+    transition: left .3s;
+    background-color: var(--blue-color_8);
+    height: 100vh;
+    padding: 10px;
+}
+
+.activePanelSide {
+    position: relative;
+    left: 0;
+}
